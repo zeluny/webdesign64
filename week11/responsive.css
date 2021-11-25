@@ -1,0 +1,25 @@
+@media screen and (max-width: 414px) {
+    #logo, #banner, #staff, #social{
+        display: none;
+    }
+    #top-menu{
+        clear: right;
+        font-size: 1.2rem;
+        width: 100%;
+        padding-left: 0;
+    }
+    #top-menu li{
+        clear: left;
+    }
+    .service-box,.port-box{
+        clear: both;
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    #copyright{
+        clear: left;
+        width: 100%;
+        text-align: center;
+    }
+} 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> การกำหนดรูปแบบของเส้นขอบใน CSS3 </title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		h1{
+
+			text-align: center;
+			padding: 30px;
+			border-width:10px;
+			border-radius:15px;
+			margin: 10px 5px 20px;
+		}
+		.solid{
+			border-style: solid;
+			border-color:#5dfe48;
+		}
+		.dashed{
+			border-style:dashed;
+			border-color:#fe5d48;
+		}
+		.dot{
+			border-style:dotted;
+			border-color:#480e12;
+		}
+		.border-img1{
+			border: 10px solid transparent;
+			padding: 15px;
+			border-image:url(border.png) 30 round;
+		}
+		.border-img2{
+			border: 10px solid transparent;
+			padding: 15px;
+			border-image:url(border.png) 30 stretch;
+		}
+		.border-img3{
+			border: 10px solid transparent;
+			padding: 15px;
+			border-image:url(border.png) 20% round;
+		}
+	</style>
+</head>
+<body>
+	<h1 class="solid">เส้นขอบแบบ solid</h1>
+	<h1 class="dashed">เส้นขอบแบบ dashed</h1>
+	<h1 class="dot">เส้นขอบแบบ dotted</h1>
+	<h1 class="border-img1">เส้นขอบโดยใช้รูปแบบที่ 1</h1>
+	<h1 class="border-img2">เส้นขอบโดยใช้รูปแบบที่ 2</h1>
+	<h1 class="border-img3">เส้นขอบโดยใช้รูปแบบที่ 3</h1>
+<hr>
+	
+<hr>
+	
+<hr>
+
+
+<a href="../index.html">กลับหน้าแรก</a>
+</body>
+</html>
